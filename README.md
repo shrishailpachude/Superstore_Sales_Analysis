@@ -145,31 +145,31 @@ The following data preparation steps were undertaken:
 
 
 
-• Removed duplicate records using window functions
+✔ Removed duplicate records using window functions
 
 
 
-• Handled NULL and inconsistent values
+✔ Handled NULL and inconsistent values
 
 
 
-• Standardized date formats for accurate time-based analysis
+✔ Standardized date formats for accurate time-based analysis
 
 
 
-• Validated data integrity (e.g., Ship Date ≥ Order Date)
+✔ Validated data integrity (e.g., Ship Date ≥ Order Date)
 
 
 
-• Checked for outliers using IQR method (no significant anomalies found)
+✔ Checked for outliers using IQR method (no significant anomalies found)
 
 
 
-• Dropped unnecessary columns (Postal Code, temporary IDs)
+✔ Dropped unnecessary columns (Postal Code, temporary IDs)
 
 
 
-• Prepared clean dataset for analysis
+✔ Prepared clean dataset for analysis
 
 
 
@@ -182,27 +182,33 @@ ________________________________________
 
 
 
-• Sales dropped by approximately 15% in Q4, indicating a significant business concern
+
+📉 Sales dropped by approximately 15% in Q4, indicating a significant business concern
 
 
 
-• Technology (-29%) and Office Supplies (-19%) were the primary contributors to the decline
+📦 Technology (-29%) and Office Supplies (-19%) were the primary contributors to the decline
 
 
 
-• Certain sub-categories (Machines, Labels, Supplies) experienced sharp negative growth
+
+📦 Certain sub-categories (Machines, Labels, Supplies) experienced sharp negative growth
 
 
 
-• West region showed the steepest decline (~ -98%), heavily impacting overall performance
+
+🌎 West region showed the steepest decline (~ -98%), heavily impacting overall performance
 
 
 
-• Customer base remained stable, but spending per order (AOV) dropped by ~29%
+
+💰 Customer base remained stable, but spending per order (AOV) dropped by ~29%
 
 
 
-• Majority of customers are returning customers, indicating low new customer acquisition
+
+👥 Majority of customers are returning customers, indicating low new customer acquisition
+
 
 
 
@@ -219,27 +225,27 @@ The Power BI dashboard provides:
 
 
 
-• Overall KPIs (Total Sales, Orders, Customers, AOV)
+✔ Overall KPIs (Total Sales, Orders, Customers, AOV)
 
 
 
-• Quarterly and monthly sales trends
+✔ Quarterly and monthly sales trends
 
 
 
-• Category and sub-category performance breakdown
+✔ Category and sub-category performance breakdown
 
 
 
-• Regional sales comparison
+✔ Regional sales comparison
 
 
 
-• Customer behavior insights (new vs returning, order frequency)
+✔ Customer behavior insights (new vs returning, order frequency)
 
 
 
-• Revenue decomposition (Customers × Orders × AOV)
+✔ Revenue decomposition (Customers × Orders × AOV)
 
 
 
@@ -280,28 +286,28 @@ ________________________________________
 
 
 
-• Improve High-Impact Categories:
+🚀 Improve High-Impact Categories:
 
 Focus on reviving Technology and Office Supplies through pricing and promotions
 
 
 
-• Increase Average Order Value (AOV):
+💰 Increase Average Order Value (AOV):
 Introduce bundling, cross-selling, and upselling strategies
 
 
 
-• Regional Strategy:
+🌍 Regional Strategy:
 Investigate and address operational or demand issues in underperforming regions
 
 
 
-• Customer Acquisition:
+📢 Customer Acquisition:
 Invest in marketing campaigns to attract new customers
 
 
 
-• Product Optimization:
+📦 Product Optimization:
 Reduce dependency on consistently underperforming sub-categories
 
 
